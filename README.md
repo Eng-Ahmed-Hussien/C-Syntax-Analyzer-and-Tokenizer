@@ -61,7 +61,7 @@ No syntax errors detected.
 
 ## Team Members
 
-- **[Eng/ Ahmed Hesham]**  - Supervisor | Compiler Design Assistant Lecturer
+- **[Eng/ Ahmed Hesham]** - Supervisor | Compiler Design Assistant Lecturer
 - **Ahmed Hussien El Sayed** - Project Lead | Developer | Documentation Specialist.
 - **[Ahmed Ebrahim El Sayed ]** - Developer | Tester.
 

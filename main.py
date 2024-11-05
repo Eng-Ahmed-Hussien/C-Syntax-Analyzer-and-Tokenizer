@@ -120,11 +120,11 @@ def tokenize(code):
     return tokens, error_flag, code_lines
 
 # Prompt user for input
-print("Enter C code (type 'perform' to analyze the input):")
+print("Enter C code (and type 'done' to analyze the input):")
 code_input = []
 while True:
     line = input()
-    if line.strip().lower() == 'perform':
+    if line.strip().lower() == 'done':
         break
     code_input.append(line)
 
