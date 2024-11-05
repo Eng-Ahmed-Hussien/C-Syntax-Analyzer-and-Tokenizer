@@ -34,7 +34,7 @@ int main() {
 
 ### Example Output
 
-```
+```Elixir
 Tokenized Output:
 ========================================
 Token Type: PREPROCESSOR  | Token Value: #include <stdio.h> | Line: 1
