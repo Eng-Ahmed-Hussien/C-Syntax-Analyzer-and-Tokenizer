@@ -4,7 +4,7 @@ This repository contains two educational tools for analyzing and parsing program
 
 ## Projects
 
-1. [**C Syntax Analyzer and Tokenizer**](C-Syntax-Analyzer/README.md)
+1. [**C Syntax Analyzer and Tokenizer**](C-Syntax-Analyzer-and-Tokenizer/README.md)
    - A Python script to analyze C code for syntax errors and tokenize it into various components like keywords, operators, and identifiers.
    - Provides detailed feedback and error detection for beginner programmers.
 
