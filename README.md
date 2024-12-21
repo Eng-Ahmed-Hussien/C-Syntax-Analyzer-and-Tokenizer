@@ -8,7 +8,7 @@ This repository contains two educational tools for analyzing and parsing program
    - A Python script to analyze C code for syntax errors and tokenize it into various components like keywords, operators, and identifiers.
    - Provides detailed feedback and error detection for beginner programmers.
 
-2. [**Top-Down Parser for Context-Free Grammars**](Top-Down-Parser/README.md)
+2. [**Top-Down Parser for Context-Free Grammars**](Top-Down-Parser/)
    - A Python-based recursive descent parser that checks strings against context-free grammar rules.
    - Features grammar validation, interactive inputs, and parse tree visualization.
 
