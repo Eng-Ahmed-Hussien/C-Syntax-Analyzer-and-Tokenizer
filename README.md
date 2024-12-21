@@ -1,76 +1,31 @@
-# C Syntax Analyzer and Tokenizer
+# Programming Language Tools Repository
 
-## Description
+This repository contains two educational tools for analyzing and parsing programming languages. Each project focuses on a unique aspect of language processing, offering features to aid learning and understanding of syntax analysis and parsing.
 
-This Python script analyzes C code for syntax errors and tokenizes it into various components. It uses regular expressions to identify different types of tokens such as keywords, operators, identifiers, and comments, while also performing syntax checks to ensure the code adheres to basic C syntax rules.
+## Projects
 
-## Features
+1. [**C Syntax Analyzer and Tokenizer**](C_Syntax_Analyzer/README.md)
+   - A Python script to analyze C code for syntax errors and tokenize it into various components like keywords, operators, and identifiers.
+   - Provides detailed feedback and error detection for beginner programmers.
 
-- **Tokenization**: Breaks down the input C code into tokens based on defined specifications.
-- **Syntax Checking**: Validates the C code for:
-  - Correct placement of `#include` directives
-  - Presence of the `main` function
-  - Balanced braces
-  - Proper termination of statements with semicolons
-- **Error Detection**: Identifies and reports any keyword usage errors and syntax errors with line numbers.
+2. [**Top-Down Parser for Context-Free Grammars**](Top_Down_Parser/README.md)
+   - A Python-based recursive descent parser that checks strings against context-free grammar rules.
+   - Features grammar validation, interactive inputs, and parse tree visualization.
 
-## Usage
+## Getting Started
 
-1. Run the script in a Python environment.
-2. Input C code line by line.
-3. Type `done` when you finish inputting your code to analyze it.
-4. The script will output the tokenized results and any detected syntax errors.
+To explore each project, navigate to its directory and follow the instructions in the respective `README.md` file.
 
-### Example Input
+## License
 
-```c
-#include <stdio.h>
-int main() {
-    int x = 10;
-    printf("Hello World");
-    return 0;
-}
-```
-
-### Example Output
-
-```Elixir
-Tokenized Output:
-========================================
-Token Type: PREPROCESSOR  | Token Value: #include <stdio.h> | Line: 1
-Token Type: KEYWORD       | Token Value: int                | Line: 2
-Token Type: IDENTIFIER    | Token Value: main               | Line: 2
-Token Type: PUNCTUATOR    | Token Value: {                  | Line: 2
-Token Type: KEYWORD       | Token Value: int                | Line: 3
-Token Type: IDENTIFIER    | Token Value: x                  | Line: 3
-Token Type: ASSIGNMENT    | Token Value: =                  | Line: 3
-Token Type: CONSTANTINT   | Token Value: 10                 | Line: 3
-Token Type: PUNCTUATOR    | Token Value: ;                  | Line: 3
-Token Type: FUNCTION      | Token Value: printf             | Line: 4
-Token Type: STRING        | Token Value: "Hello World"      | Line: 4
-Token Type: PUNCTUATOR    | Token Value: ;                  | Line: 4
-Token Type: KEYWORD       | Token Value: return             | Line: 5
-Token Type: CONSTANTINT   | Token Value: 0                  | Line: 5
-Token Type: PUNCTUATOR    | Token Value: ;                  | Line: 5
-Token Type: PUNCTUATOR    | Token Value: }                  | Line: 6
-========================================
-
-Conclusion:
-No syntax errors detected.
-```
+This repository is licensed under the MIT License. See individual project directories for more details.
 
 ## Team Members
 
 - **[Eng/ Ahmed Hesham]** - Supervisor | Compiler Design Assistant Lecturer
-- **Ahmed Hussien El Sayed** - Project Lead | Developer | Documentation Specialist.
-- **[Ahmed Ebrahim El Sayed ]** - Developer | Tester.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Ahmed Hussien El Sayed** - Project Lead | Developer | Documentation Specialist
+- **Ahmed Ebrahim El Sayed** - Developer | Tester
 
 ## Acknowledgments
 
-- Inspired by educational projects focused on C programming language syntax analysis.
-- Special thanks to Eng / Ahmed Hesham for His explanation and support.
-- Special thanks to the Python community for their resources and support.
+Special thanks to Eng. Ahmed Hesham and the Python community for their guidance and resources.
