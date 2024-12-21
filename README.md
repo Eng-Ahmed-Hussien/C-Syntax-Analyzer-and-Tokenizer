@@ -28,4 +28,5 @@ This repository is licensed under the MIT License. See individual project direct
 
 ## Acknowledgments
 
-Special thanks to Eng. Ahmed Hesham and the Python community for their guidance and resources.
+- Special thanks to Eng. Ahmed Hesham.
+- the Python community for their guidance and resources.
